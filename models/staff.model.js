@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const staffSchema = new mongoose.Schema({
   departmentName: { type: String, required: true },
+  status: { type: String, required: true },
   info: {
     designation: { type: String, required: true },
     name: { type: String, required: true },
